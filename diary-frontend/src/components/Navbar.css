@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0px 20px;
+    background-color: #79bdc6; 
+    color: #fff; 
+    height: 50px;
+  }
+  
+  .navbar-logo {
+    font-size: 1.2em;
+    cursor: pointer;
+    margin: 0;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-links li {
+    margin-left: 15px;
+  }
+  
+  .nav-button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .nav-button:hover {
+    color: #ddd; 
+  }
